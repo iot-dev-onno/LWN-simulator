@@ -61,7 +61,7 @@ func (d *Device) CreateUplink() [][]byte {
 
 	}
 
-	// ** Aquí inyectamos el FPort dinámico, si está definido **
+	// Se inyecta el Fport Dinamico
     if d.FPortProvider != nil {
         p := d.FPortProvider()
         d.Info.Status.DataUplink.FPort = &p

@@ -23,10 +23,8 @@ type Device struct {
 	Resources *res.Resources           `json:"-"`
 	Mutex     sync.Mutex               `json:"-"`
 	Console   c.Console                `json:"-"`
-	// PayloadProvider genera el FRM Payload en cada uplink.
-	// Por defecto devolvera el estatco, pero lo podremos inyectar. 
+	// Declaracion de provedores para la inyeccion
 	PayloadProvider func() []byte 	   `json:"-"`
-	// Inyeccion de Fport
 	FPortProvider   func() uint8          `json:"-"`
 	
 }

@@ -63,6 +63,7 @@ func loadPayloadsFromCSV(path string) ([][]byte, error) {
 	return payloads, nil
 }
 
+// Funcion Modificada para hacer Dinamico el Payload y port 
 func GetInstance() *Simulator {
 	var s Simulator
 	shared.DebugPrint("Init new Simulator instance")
@@ -78,6 +79,7 @@ func GetInstance() *Simulator {
 	s.ActiveGateways = make(map[int]int)
 
 	// Inyección de PayloadProvider
+	// Colocar el dispositivo que se quiere hacer dinamico 
 	const targetEUI = "4c565b2684f0319e"
 	//staticPart := []byte{0xFF, 0xAA}
 
