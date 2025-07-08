@@ -1,0 +1,57 @@
+function decodeUplink(input) {
+
+    var data = {};
+	var bytes = input.bytes;
+
+	var voltage_int1 = bytes[20]<<8 | bytes[21];
+
+
+  	var batteryVoltage_1 = voltage_int1/16.4;
+    var pulseConstantCode = bytes[9];
+    var pulseConstants = {
+        0x01: '1L/P',
+        0x02: '10L/P',
+        0x03: '100L/P',
+        0x04: '1000L/P'
+    };
+
+
+    data.pulseConstant = pulseConstants[pulseConstantCode];
+    var pulseValue = 10; 
+    var pulseNumber = bytes[15]<<24 | bytes[16]<<16 | bytes[17]<<8 | bytes[18];
+
+    data.pulseNumber = pulseNumber;
+
+    data.actualReading =  pulseValue * pulseNumber;
+
+
+    var valveStatusCode = bytes[23];
+    var valveStatus = {
+        0x00: 'open',
+        0x04: 'closed'
+    };
+    data.valve = valveStatus[valveStatusCode];
+
+	data.temperature=valveStatusCode;
+  
+	var triggerCode = bytes[26];
+    var triggerStatus = {
+        0x00: 'MageticTrigger',
+        0x01: 'RoutineReport'
+    };
+  data.triggerSource = triggerStatus[triggerCode];
+
+
+
+
+  	data.payload_bytes_lenght = bytes.length;
+    data.frameHeader = bytes[0];
+  	data.batteryVoltage1 = batteryVoltage_1.toFixed(2);
+
+
+    return {
+        data: data,
+        warnings: [],
+        errors: []
+    };
+}
