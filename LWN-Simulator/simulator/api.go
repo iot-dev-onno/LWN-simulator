@@ -27,12 +27,17 @@ import (
 )
 
 // Variables globales para el manejo de payloads CSV
-var csvPayloads [][]byte
+type CSVPayload struct {
+	Payload []byte
+	FPort   uint8
+}
+
+var csvPayloads []CSVPayload
 var csvIndex int
 
 
 // Función para cargar los payloads desde un archivo CSV
-func loadPayloadsFromCSV(path string) ([][]byte, error) {
+func loadPayloadsFromCSV(path string) ([]CSVPayload, error) {
 	file, err := os.Open(path)
 	if err != nil {
 		return nil, err
@@ -40,25 +45,47 @@ func loadPayloadsFromCSV(path string) ([][]byte, error) {
 	defer file.Close()
 
 	reader := csv.NewReader(file)
-	var payloads [][]byte
+	var payloads []CSVPayload
+
+	// Si hay encabezado, descartarlo:
+	if _, err := reader.Read(); err != nil {
+		// puede no tener encabezado, pero seguimos
+	}
 
 	for {
 		record, err := reader.Read()
 		if err != nil {
 			break
 		}
-		for _, hexStr := range record {
-			hexStr = strings.TrimSpace(hexStr)
-			if hexStr == "" {
-				continue
-			}
-			b, err := hex.DecodeString(hexStr)
-			if err != nil {
-				log.Printf("Invalid hex in CSV: %s", hexStr)
-				continue
-			}
-			payloads = append(payloads, b)
+		if len(record) < 2 {
+			log.Println("Fila incompleta en CSV, se omite:", record)
+			continue
 		}
+
+		hexStr := strings.TrimSpace(record[0])
+		portStr := strings.TrimSpace(record[1])
+		if hexStr == "" || portStr == "" {
+			continue
+		}
+
+		// Decodificar payload hex
+		b, err := hex.DecodeString(hexStr)
+		if err != nil {
+			log.Printf("Payload inválido en CSV: %s", hexStr)
+			continue
+		}
+
+		// Parsear FPort
+		var fport uint8
+		if _, err := fmt.Sscanf(portStr, "%d", &fport); err != nil {
+			log.Printf("FPort inválido en CSV: %s", portStr)
+			continue
+		}
+
+		payloads = append(payloads, CSVPayload{
+			Payload: b,
+			FPort:   fport,
+		})
 	}
 	return payloads, nil
 }
@@ -70,70 +97,57 @@ func GetInstance() *Simulator {
 
 	// Estado inicial
 	s.State = util.Stopped
-
 	// Carga de JSON
 	s.loadData()
 
-	// Inicialización de mapas
+	// Inicializacion de mapas
 	s.ActiveDevices = make(map[int]int)
 	s.ActiveGateways = make(map[int]int)
 
-	// Inyección de PayloadProvider
-	// Colocar el dispositivo que se quiere hacer dinamico 
+	// --- Inyeccion de PayloadProvider ---
 	const targetEUI = "4c565b2684f0319e"
 	//staticPart := []byte{0xFF, 0xAA}
 
-	// Carga los payloads desde un archivo CSV
+	// Cargar payload y fport de CSV
 	var err error
 	csvPayloads, err = loadPayloadsFromCSV("resultado.csv")
 	if err != nil || len(csvPayloads) == 0 {
 		log.Printf("Error loading CSV payloads: %v", err)
-		csvPayloads = [][]byte{{0x00}} // fallback
+		// Fallback: un solo payload vacío y puerto 0
+		csvPayloads = []CSVPayload{{Payload: []byte{0x00}, FPort: 0}}
 	}
 	csvIndex = 0
 
 	for _, d := range s.Devices {
-		// Payload original si existe
-		var origBytes []byte
+		// Guardamos el payload original por defecto
+		var orig []byte
 		if pl, ok := d.Info.Status.Payload.(*lorawan.DataPayload); ok {
-			origBytes = append([]byte(nil), pl.Bytes...)
+			orig = append([]byte(nil), pl.Bytes...)
+		}
+		d.PayloadProvider = func() []byte {
+			buf := make([]byte, len(orig))
+			copy(buf, orig)
+			return buf
 		}
 
-		// Provider por defecto (original)
-		{
-			base := origBytes
-			d.PayloadProvider = func() []byte {
-				buf := make([]byte, len(base))
-				copy(buf, base)
-				return buf
-			}
-		}
-
-		// Reemplazo si el DevEUI coincide con el objetivo
+		// Si coincide el DevEUI, asignamos proveedor CSV
 		if hex.EncodeToString(d.Info.DevEUI[:]) == targetEUI {
-			toggle := uint8(2)
-
 			d.PayloadProvider = func() []byte {
-				payload := csvPayloads[csvIndex]
+				p := csvPayloads[csvIndex].Payload
+				// incrementamos índice (cíclico)
 				csvIndex = (csvIndex + 1) % len(csvPayloads)
-				out := make([]byte, len(payload))
-				copy(out, payload)
+				out := make([]byte, len(p))
+				copy(out, p)
 				return out
 			}
-
 			d.FPortProvider = func() uint8 {
-				out := toggle
-				if toggle == 2 {
-					toggle = 3
-				} else {
-					toggle = 2
-				}
-				return out
+				// el puerto corresponde al payload anterior
+				idx := (csvIndex - 1 + len(csvPayloads)) % len(csvPayloads)
+				return csvPayloads[idx].FPort
 			}
 		}
 	}
 
-	// Resto de inicialización
 	//s.Forwarder = *forwarder.Setup()
 	//s.Console = console.Console{}
 	s.Forwarder = *f.Setup()
