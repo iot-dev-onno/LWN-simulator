@@ -113,26 +113,38 @@ func GetInstance() *Simulator {
 	//staticPart := []byte{0xFF, 0xAA}
 
 	// Cargar payload y fport de CSV
+//--------------------------------------------------------------------------------------------------------------------------------------
+	// EN ESTA PARTE SE INGRESA EL SENSOR QUE SE QUIERE SIMULAR Y LOS DISPOSITIVOS
+	groupConfigs := map[string][]string{
+		"SensorA/sensorA1.csv":{
+			"192a490aef17c94b",
+			"4c565b2684f0319e",
+		},
+		"SensorB/sensorB1.csv":{
+			"705cda94439032c6",
+			"4694a956c935415d",
+		},
+		"SensorC/sensorC1.csv":{
+			"bc42b5247be13cb7",
+			"36848c837ed859e3",
+		},
+		
+	}
+//---------------------------------------------------------------------------------------------------------------------------------------
 	
-	var err error
-	csvPayloads, err = loadPayloadsFromCSV("SensorA/sensorA1.csv")
-	if err != nil || len(csvPayloads) == 0 {
-		log.Printf("Error loading CSV payloads: %v", err)
-		// Fallback: un solo payload vacío y puerto 0
-		csvPayloads = []CSVPayload{{Payload: []byte{0x00}, FPort: 0}}
+	groupPayloads := make(map[string][]CSVPayload, len(groupConfigs))
+	for csvPath := range groupConfigs {
+		payloads, err := loadPayloadsFromCSV(csvPath)
+		if err != nil || len(payloads) == 0 {
+			payloads = []CSVPayload{{Payload: []byte{0x00}, FPort: 0}}
+		}
+		groupPayloads[csvPath] = payloads
 	}
 	
 
 
 	//csvIndex = 0
 	csvIndice = make(map[string]int)
-	//------------------------------------------------------------------------------------------------------------------------------------------
-	// EN ESTE APARTADO SE INGRESAN LOS DEVICES 
-	dynamicEUIs := map[string]bool{
-		"192a490aef17c94b": true,
-		"4c565b2684f0319e": true,
-	}
-	//------------------------------------------------------------------------------------------------------------------------------------------
 
 	for _, d := range s.Devices {
 		euiStr := hex.EncodeToString(d.Info.DevEUI[:])
@@ -147,25 +159,33 @@ func GetInstance() *Simulator {
 			return buf
 		}
 
-		if dynamicEUIs[euiStr] {
-            // inicializo su índice en cero
-            csvIndice[euiStr] = 0
-            // capturo la variable para la clausura
-            key := euiStr
 
-            d.PayloadProvider = func() []byte {
-                idx := csvIndice[key]
-                p := csvPayloads[idx].Payload
-                // avanzo solo este índice
-                csvIndice[key] = (idx + 1) % len(csvPayloads)
-                out := make([]byte, len(p))
-                copy(out, p)
-                return out
-            }
-            d.FPortProvider = func() uint8 {
-                prev := (csvIndice[key] - 1 + len(csvPayloads)) % len(csvPayloads)
-                return csvPayloads[prev].FPort
-            }
+			for csvPath, euis := range groupConfigs {
+            // busca si euiStr está en la lista euis
+            for _, g := range euis {
+                if g == euiStr {
+                    // inicializamos índice sólo la primera vez
+                    if _, seen := csvIndice[euiStr]; !seen {
+                        csvIndice[euiStr] = 0
+                    }
+                    // capturamos csvPath y euiStr para las closures
+                    key, payloads := euiStr, groupPayloads[csvPath]
+
+                    d.PayloadProvider = func() []byte {
+                        idx := csvIndice[key]
+                        p := payloads[idx].Payload
+                        csvIndice[key] = (idx + 1) % len(payloads)
+                        out := make([]byte, len(p))
+                        copy(out, p)
+                        return out
+                    }
+                    d.FPortProvider = func() uint8 {
+                        prev := (csvIndice[key] - 1 + len(payloads)) % len(payloads)
+                        return payloads[prev].FPort
+                    }
+                    break
+                }
+			}
 		}
 	}
 
