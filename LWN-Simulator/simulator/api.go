@@ -10,6 +10,7 @@ import (
 	"strings"
 	"os"
 	
+	
 
 	"github.com/brocaar/lorawan"
 
@@ -33,7 +34,10 @@ type CSVPayload struct {
 }
 
 var csvPayloads []CSVPayload
-var csvIndex int
+//var csvIndex int
+// VARIABLE PARA INGRESAR MAS DEVICES
+var csvIndice map[string]int
+
 
 
 // Función para cargar los payloads desde un archivo CSV
@@ -105,20 +109,33 @@ func GetInstance() *Simulator {
 	s.ActiveGateways = make(map[int]int)
 
 	// --- Inyeccion de PayloadProvider ---
-	const targetEUI = "4c565b2684f0319e"
+	//const targetEUI = "4c565b2684f0319e"
 	//staticPart := []byte{0xFF, 0xAA}
 
 	// Cargar payload y fport de CSV
+	
 	var err error
-	csvPayloads, err = loadPayloadsFromCSV("resultado.csv")
+	csvPayloads, err = loadPayloadsFromCSV("SensorA/sensorA1.csv")
 	if err != nil || len(csvPayloads) == 0 {
 		log.Printf("Error loading CSV payloads: %v", err)
 		// Fallback: un solo payload vacío y puerto 0
 		csvPayloads = []CSVPayload{{Payload: []byte{0x00}, FPort: 0}}
 	}
-	csvIndex = 0
+	
+
+
+	//csvIndex = 0
+	csvIndice = make(map[string]int)
+	//------------------------------------------------------------------------------------------------------------------------------------------
+	// EN ESTE APARTADO SE INGRESAN LOS DEVICES 
+	dynamicEUIs := map[string]bool{
+		"192a490aef17c94b": true,
+		"4c565b2684f0319e": true,
+	}
+	//------------------------------------------------------------------------------------------------------------------------------------------
 
 	for _, d := range s.Devices {
+		euiStr := hex.EncodeToString(d.Info.DevEUI[:])
 		// Guardamos el payload original por defecto
 		var orig []byte
 		if pl, ok := d.Info.Status.Payload.(*lorawan.DataPayload); ok {
@@ -130,21 +147,25 @@ func GetInstance() *Simulator {
 			return buf
 		}
 
-		// Si coincide el DevEUI, asignamos proveedor CSV
-		if hex.EncodeToString(d.Info.DevEUI[:]) == targetEUI {
-			d.PayloadProvider = func() []byte {
-				p := csvPayloads[csvIndex].Payload
-				// incrementamos índice (cíclico)
-				csvIndex = (csvIndex + 1) % len(csvPayloads)
-				out := make([]byte, len(p))
-				copy(out, p)
-				return out
-			}
-			d.FPortProvider = func() uint8 {
-				// el puerto corresponde al payload anterior
-				idx := (csvIndex - 1 + len(csvPayloads)) % len(csvPayloads)
-				return csvPayloads[idx].FPort
-			}
+		if dynamicEUIs[euiStr] {
+            // inicializo su índice en cero
+            csvIndice[euiStr] = 0
+            // capturo la variable para la clausura
+            key := euiStr
+
+            d.PayloadProvider = func() []byte {
+                idx := csvIndice[key]
+                p := csvPayloads[idx].Payload
+                // avanzo solo este índice
+                csvIndice[key] = (idx + 1) % len(csvPayloads)
+                out := make([]byte, len(p))
+                copy(out, p)
+                return out
+            }
+            d.FPortProvider = func() uint8 {
+                prev := (csvIndice[key] - 1 + len(csvPayloads)) % len(csvPayloads)
+                return csvPayloads[prev].FPort
+            }
 		}
 	}
 
