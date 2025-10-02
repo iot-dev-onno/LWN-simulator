@@ -39,7 +39,6 @@ func main() {
 	} else {
 		log.Println("Autostart not enabled")
 	}
-	
 	// Start the web server and serve WebUI
 	WebServer := ws.NewWebServer(cfg, simulatorController)
 	WebServer.Run()

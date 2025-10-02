@@ -22,8 +22,8 @@ func (us *Us915) Setup() {
 	us.Info.MaxFrequency = 928000000
 	us.Info.FrequencyRX2 = 923300000
 	us.Info.DataRateRX2 = 8
-	us.Info.MinDataRate = 0
-	us.Info.MaxDataRate = 13
+	us.Info.MinDataRate = 1
+	us.Info.MaxDataRate = 3
 	us.Info.MinRX1DROffset = 0
 	us.Info.MaxRX1DROffset = 3
 	us.Info.InfoGroupChannels = []models.InfoGroupChannels{
@@ -31,7 +31,7 @@ func (us *Us915) Setup() {
 			EnableUplink:       true,
 			InitialFrequency:   902300000,
 			OffsetFrequency:    200000,
-			MinDataRate:        0,
+			MinDataRate:        3,
 			MaxDataRate:        3,
 			NbReservedChannels: 64,
 		},

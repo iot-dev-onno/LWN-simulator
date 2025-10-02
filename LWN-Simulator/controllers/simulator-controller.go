@@ -13,7 +13,6 @@ import (
 
 // SimulatorController is the interface that defines the methods that the simulator controller must implement.
 type SimulatorController interface {
-	
 	Run() bool                                 // Run the simulator
 	Stop() bool                                // Stop the simulator
 	Status() bool                              // Get the status of the simulator
@@ -36,8 +35,6 @@ type SimulatorController interface {
 	ChangeLocation(e.NewLocation) bool         // Change the location
 	ToggleStateGateway(int)                    // Toggle the state of a gateway
 }
-
-
 
 // simulatorController controller struct
 type simulatorController struct {

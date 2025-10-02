@@ -1,0 +1,19 @@
+{
+	"0": {
+		"id": 0,
+		"info": {
+			"macAddress": "c8b33a5b8fd2fbda",
+			"keepAlive": 30,
+			"active": true,
+			"typeGateway": false,
+			"name": "rasp_simulacion_0",
+			"location": {
+				"latitude": 0,
+				"longitude": 0,
+				"altitude": 0
+			},
+			"ip": "",
+			"port": ""
+		}
+	}
+}

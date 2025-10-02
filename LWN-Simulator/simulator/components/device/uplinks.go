@@ -52,7 +52,6 @@ func (d *Device) CreateUplink() [][]byte {
 		} else {
 			mtype = d.Info.Status.MType
 			//payload = d.Info.Status.Payload
-			// PARTE NUEVA
 			payload = &lorawan.DataPayload{Bytes: d.PayloadProvider()}
 			
 		}
@@ -60,12 +59,12 @@ func (d *Device) CreateUplink() [][]byte {
 		d.Info.Status.LastMType = mtype
 
 	}
+	if d.FPortProvider != nil{
+	p := d.FPortProvider()
+	d.Info.Status.DataUplink.FPort = &p
+	}
 
-	// Se inyecta el Fport Dinamico
-    if d.FPortProvider != nil {
-        p := d.FPortProvider()
-        d.Info.Status.DataUplink.FPort = &p
-    }
+    
 
 	m, n := d.Info.Configuration.Region.GetPayloadSize(d.Info.Status.DataRate, d.Info.Status.DataUplink.DwellTime)
 

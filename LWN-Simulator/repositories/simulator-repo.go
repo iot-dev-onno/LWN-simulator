@@ -33,8 +33,8 @@ type SimulatorRepository interface {
 	DeleteDevice(int) bool                     // Delete a device
 	ToggleStateDevice(int)                     // Toggle the state of a device
 	SendMACCommand(lorawan.CID, e.MacCommand)  // Send a MAC command
-	ChangePayload(e.NewPayload) (string, bool) // Change the payload -------------
-	SendUplink(e.NewPayload)                   // Send an uplink -----------------
+	ChangePayload(e.NewPayload) (string, bool) // Change the payload
+	SendUplink(e.NewPayload)                   // Send an uplink
 	ChangeLocation(e.NewLocation) bool         // Change the location
 	ToggleStateGateway(int)                    // Toggle the state of a gateway
 }
@@ -142,7 +142,6 @@ func (s *simulatorRepository) SendMACCommand(cid lorawan.CID, data e.MacCommand)
 	s.sim.SendMACCommand(cid, data)
 }
 
-// aca se puede configurar el payload
 func (s *simulatorRepository) ChangePayload(pl e.NewPayload) (string, bool) {
 	return s.sim.ChangePayload(pl)
 }

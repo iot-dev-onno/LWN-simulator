@@ -23,10 +23,8 @@ type Device struct {
 	Resources *res.Resources           `json:"-"`
 	Mutex     sync.Mutex               `json:"-"`
 	Console   c.Console                `json:"-"`
-	// Declaracion de provedores para la inyeccion
-	PayloadProvider func() []byte 	   `json:"-"`
-	FPortProvider   func() uint8          `json:"-"`
-	
+	PayloadProvider func() []byte      `json:"-"`
+	FPortProvider func() uint8         `json:"-"`
 }
 
 // *******************Intern func*******************/

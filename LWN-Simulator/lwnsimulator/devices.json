@@ -1,0 +1,4482 @@
+{
+  "1": {
+    "id": 1,
+    "info": {
+      "devEUI": "736b2e3ddaa82e7e",
+      "devAddr": "391429ff",
+      "nwkSKey": "be6ed68341b23d029824f10cd4d88fbc",
+      "appSKey": "1b50b7ed945c8e6ea247639e2f8ee3c9",
+      "appKey": "00000000000000000000000000000000",
+      "name": "prueba2",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "JBnHFoO7TBsUAhsAEgILAAAAKRoAOzMAACMB1g==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 523
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 5,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926900000,
+            "freqDownlink": 926900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "15": {
+    "id": 15,
+    "info": {
+      "devEUI": "71b2dcc1b34135ae",
+      "devAddr": "0556aeb8",
+      "nwkSKey": "fc137eda1262213d81beb28e375bab2c",
+      "appSKey": "697551fb900d98806360b3b66d4b8eb0",
+      "appKey": "00000000000000000000000000000000",
+      "name": "001_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925100000,
+            "freqDownlink": 925100000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "16": {
+    "id": 16,
+    "info": {
+      "devEUI": "cad6d3096056b748",
+      "devAddr": "018eeca2",
+      "nwkSKey": "31d553d19e68cbcd855344dd7dbe88e8",
+      "appSKey": "883283be79f9d711c7ed4b6d5876bb46",
+      "appKey": "00000000000000000000000000000000",
+      "name": "001_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 5
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "17": {
+    "id": 17,
+    "info": {
+      "devEUI": "ef2512b553568286",
+      "devAddr": "dc172754",
+      "nwkSKey": "d53d69c3132e8bbee1d5d07974509bdc",
+      "appSKey": "58b673dd286cb34c05257916db612374",
+      "appKey": "00000000000000000000000000000000",
+      "name": "002_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "18": {
+    "id": 18,
+    "info": {
+      "devEUI": "aea3589943cc9ee6",
+      "devAddr": "aa49566e",
+      "nwkSKey": "caacb43617a2ef1cceb74d01bae5682a",
+      "appSKey": "50ae3312fdb4dbc5e5a7996186d46562",
+      "appKey": "00000000000000000000000000000000",
+      "name": "003_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "19": {
+    "id": 19,
+    "info": {
+      "devEUI": "4bb04a7ca707a7ed",
+      "devAddr": "21d4332d",
+      "nwkSKey": "fbac4f3485a62542633c814ba9d53cc2",
+      "appSKey": "1ce4803521b99537cb036e86262e6c58",
+      "appKey": "00000000000000000000000000000000",
+      "name": "004_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926900000,
+            "freqDownlink": 926900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "2": {
+    "id": 2,
+    "info": {
+      "devEUI": "84e58aa1be8c69e8",
+      "devAddr": "7a26af0b",
+      "nwkSKey": "2862db9eee57a2ae3d4ece3474d9da35",
+      "appSKey": "91ac6dc6e7424fa85f2302fddab7b51d",
+      "appKey": "00000000000000000000000000000000",
+      "name": "000_dev_simulacion_juan",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 1
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": false,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 0,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 0
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "20": {
+    "id": 20,
+    "info": {
+      "devEUI": "29837198855b0855",
+      "devAddr": "cbbf9dc5",
+      "nwkSKey": "f5bbb70534108503044221273aa21be6",
+      "appSKey": "4db86a9b6ab180e2aa5998769d8038a1",
+      "appKey": "00000000000000000000000000000000",
+      "name": "005_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "21": {
+    "id": 21,
+    "info": {
+      "devEUI": "a2cee5746b050e7c",
+      "devAddr": "911e3652",
+      "nwkSKey": "d1e6f66181ea3ac6c078729f917a743e",
+      "appSKey": "c025e556a5fcd174448347b3a0b1864d",
+      "appKey": "00000000000000000000000000000000",
+      "name": "006_NPS_simulacion",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "26": {
+    "id": 26,
+    "info": {
+      "devEUI": "e9c1f31f99366222",
+      "devAddr": "e82fca3d",
+      "nwkSKey": "61814cdd9beb3ec5e215c405a17fa9ab",
+      "appSKey": "8bdea91fddb2d9184f34221b07608162",
+      "appKey": "00000000000000000000000000000000",
+      "name": "002_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 265
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926900000,
+            "freqDownlink": 926900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "28": {
+    "id": 28,
+    "info": {
+      "devEUI": "1e0d568b9544d928",
+      "devAddr": "23332246",
+      "nwkSKey": "4f1d1c58b2782522e2252a43a8289455",
+      "appSKey": "d34b0631d549adbf31b34b9d96c4d9e1",
+      "appKey": "00000000000000000000000000000000",
+      "name": "004_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 135
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "29": {
+    "id": 29,
+    "info": {
+      "devEUI": "c57949d36e38792a",
+      "devAddr": "a79b8a20",
+      "nwkSKey": "e331c3b9e7cf200a54df34e94de7946d",
+      "appSKey": "69c2cd6719a9039945c0f9ea60822380",
+      "appKey": "00000000000000000000000000000000",
+      "name": "005_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 131
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923300000,
+            "freqDownlink": 923300000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "3": {
+    "id": 3,
+    "info": {
+      "devEUI": "1aca540a14c43e2b",
+      "devAddr": "a6e64771",
+      "nwkSKey": "977967b253f1862316bc80e0651cea77",
+      "appSKey": "5f18d8afcb6ae4157a1e0db12627c74e",
+      "appKey": "00000000000000000000000000000000",
+      "name": "001_Simulacion_sensor_apertura",
+      "status": {
+        "mtype": "ConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 3,
+          "fcnt": 33
+        },
+        "fcntDown": 8,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": true,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926900000,
+            "freqDownlink": 926900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "30": {
+    "id": 30,
+    "info": {
+      "devEUI": "a63113c90e4deb87",
+      "devAddr": "43a4985c",
+      "nwkSKey": "a02b841443775525c00a2756c6841698",
+      "appSKey": "97235c07896c5c10e691e37cac2a2580",
+      "appKey": "00000000000000000000000000000000",
+      "name": "006_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 127
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "31": {
+    "id": 31,
+    "info": {
+      "devEUI": "7653162876071e7b",
+      "devAddr": "81b392ce",
+      "nwkSKey": "bedc9bab8892a0127d3e7a259724d975",
+      "appSKey": "69b8527c178ddc3732b4157d593622c4",
+      "appKey": "00000000000000000000000000000000",
+      "name": "007_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 122
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "32": {
+    "id": 32,
+    "info": {
+      "devEUI": "0d2bb51e68339d18",
+      "devAddr": "242dae6b",
+      "nwkSKey": "be7583e27a302659784a9dbecddac2bf",
+      "appSKey": "d233c742a585e7d8ec959893687bbc85",
+      "appKey": "00000000000000000000000000000000",
+      "name": "008_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 118
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 924500000,
+            "freqDownlink": 924500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "33": {
+    "id": 33,
+    "info": {
+      "devEUI": "de6b82c111978638",
+      "devAddr": "5e68cdfc",
+      "nwkSKey": "5175c45e874340bd9977efd3c9a33fa1",
+      "appSKey": "ee9719bb4791cb32ea710d9a4e5f6165",
+      "appKey": "00000000000000000000000000000000",
+      "name": "009_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 236
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923900000,
+            "freqDownlink": 923900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "34": {
+    "id": 34,
+    "info": {
+      "devEUI": "69e5c4b295323442",
+      "devAddr": "ed74a498",
+      "nwkSKey": "64c6251b24e58c126c209a2269c15ffb",
+      "appSKey": "bc768a02992e899517c44ee1c394fe33",
+      "appKey": "00000000000000000000000000000000",
+      "name": "010_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 220
+        },
+        "fcntDown": 1,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 924500000,
+            "freqDownlink": 924500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "35": {
+    "id": 35,
+    "info": {
+      "devEUI": "6e289d7a3685157a",
+      "devAddr": "da4b7b9f",
+      "nwkSKey": "633614d75e9bdcc44955d3e253f39cc4",
+      "appSKey": "c053c3b1b0863cbd0dcdcc674beaa371",
+      "appKey": "00000000000000000000000000000000",
+      "name": "011_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 64
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "36": {
+    "id": 36,
+    "info": {
+      "devEUI": "b2a4f816bc29de7a",
+      "devAddr": "27518d2e",
+      "nwkSKey": "87edbfffac07226c21e86d27f8926d5d",
+      "appSKey": "de5d555263584d5a375e992ae726d833",
+      "appKey": "00000000000000000000000000000000",
+      "name": "012_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 59
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "37": {
+    "id": 37,
+    "info": {
+      "devEUI": "424c113e674ee54c",
+      "devAddr": "aae59301",
+      "nwkSKey": "278cda87ee8d97bbe9d2659b72e12789",
+      "appSKey": "7cc94e6ada81342cb3518e2ce605ae3c",
+      "appKey": "00000000000000000000000000000000",
+      "name": "013_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 53
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "38": {
+    "id": 38,
+    "info": {
+      "devEUI": "7de581d16a94b117",
+      "devAddr": "f32c5c61",
+      "nwkSKey": "82dca8b13abdea31953e9f2bf53475c9",
+      "appSKey": "64a42679713c70497b9e3165e23c67d6",
+      "appKey": "00000000000000000000000000000000",
+      "name": "014_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 36
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923300000,
+            "freqDownlink": 923300000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "39": {
+    "id": 39,
+    "info": {
+      "devEUI": "51e036ca22c9716a",
+      "devAddr": "4e41aed5",
+      "nwkSKey": "c5c98886635197b4aaaa1e5c964a815a",
+      "appSKey": "de0ac9bb22bd12f48b299094953a9108",
+      "appKey": "00000000000000000000000000000000",
+      "name": "015_id_huella ",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 24
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "4": {
+    "id": 4,
+    "info": {
+      "devEUI": "6746e85e6f91dd63",
+      "devAddr": "5cc18b22",
+      "nwkSKey": "684d2ecb5dc1fdf06aeb23b9c348fdac",
+      "appSKey": "ecd33dd39aa2a69d774e5c57da42d12a",
+      "appKey": "00000000000000000000000000000000",
+      "name": "001_SensorGPS",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 35
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval":  10,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": false,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 0,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 0
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "40": {
+    "id": 40,
+    "info": {
+      "devEUI": "4cbdfd83bc390f81",
+      "devAddr": "e6e01673",
+      "nwkSKey": "8baa52a3ec23d1c54ceb9fa832b94dbe",
+      "appSKey": "515dc726d683a543b73edba477ca9145",
+      "appKey": "00000000000000000000000000000000",
+      "name": "016_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 0,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "41": {
+    "id": 41,
+    "info": {
+      "devEUI": "23a8b57ca1744b6a",
+      "devAddr": "b3b98a58",
+      "nwkSKey": "9992e56a9314cf201ac28507785c4c84",
+      "appSKey": "c6c2707836ae79d7dae526812ccd9374",
+      "appKey": "00000000000000000000000000000000",
+      "name": "017_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "42": {
+    "id": 42,
+    "info": {
+      "devEUI": "86aa9b60cf7c99f2",
+      "devAddr": "43340fe8",
+      "nwkSKey": "1c53c91b4f89886ed7801205dd002fb8",
+      "appSKey": "c56c5e330d6f2f267f5fe72ef53b5b1f",
+      "appKey": "00000000000000000000000000000000",
+      "name": "018_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "43": {
+    "id": 43,
+    "info": {
+      "devEUI": "8aedba156bd2f32f",
+      "devAddr": "9b6ad142",
+      "nwkSKey": "69acb9e655f105edf27cc7326d14e892",
+      "appSKey": "6310792711d2a12545bdb51fb68bf5ba",
+      "appKey": "00000000000000000000000000000000",
+      "name": "019_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923900000,
+            "freqDownlink": 923900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "44": {
+    "id": 44,
+    "info": {
+      "devEUI": "c7f27c980dd3dfe2",
+      "devAddr": "b0558b47",
+      "nwkSKey": "483c2a2febf87ebb54b2ac7a06936788",
+      "appSKey": "81347f4106223d5ed2270a223a712eec",
+      "appKey": "00000000000000000000000000000000",
+      "name": "020_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "45": {
+    "id": 45,
+    "info": {
+      "devEUI": "2f388648c7df09dd",
+      "devAddr": "de1f52d3",
+      "nwkSKey": "1de4c3bd186e6690c166c38697dcc759",
+      "appSKey": "ea2881fcb0e755aebfc621cb388b0631",
+      "appKey": "00000000000000000000000000000000",
+      "name": "021_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "46": {
+    "id": 46,
+    "info": {
+      "devEUI": "00659621923c246e",
+      "devAddr": "190980ad",
+      "nwkSKey": "06aaa4c53198cfc85b3c8b6ba9c3189c",
+      "appSKey": "36e117345f3038b03d00edd0cff1e8ad",
+      "appKey": "00000000000000000000000000000000",
+      "name": "022_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "47": {
+    "id": 47,
+    "info": {
+      "devEUI": "fbbac082dbea913f",
+      "devAddr": "4508d621",
+      "nwkSKey": "6df5f2bbf38d232ad16e470c825a23bc",
+      "appSKey": "48c846b951db453588e41b808b804e8b",
+      "appKey": "00000000000000000000000000000000",
+      "name": "023_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "48": {
+    "id": 48,
+    "info": {
+      "devEUI": "770825c4f81b22dc",
+      "devAddr": "ef2915b0",
+      "nwkSKey": "24c4b05609209837d398ad103bfd5197",
+      "appSKey": "c90d6731427943caefea471e8f4f0e9b",
+      "appKey": "00000000000000000000000000000000",
+      "name": "024_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "49": {
+    "id": 49,
+    "info": {
+      "devEUI": "d942ffe79af90954",
+      "devAddr": "09dd40d8",
+      "nwkSKey": "89ffcef2bf687529999234302510e424",
+      "appSKey": "9bf34d3d8d50af60b9650c580cdf2f32",
+      "appKey": "00000000000000000000000000000000",
+      "name": "025_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "5": {
+    "id": 5,
+    "info": {
+      "devEUI": "8579dd1b567b809b",
+      "devAddr": "366eaa22",
+      "nwkSKey": "957d2f1ac4026b47a65878e19bdd51f4",
+      "appSKey": "6433185bcd75e73cbd5e2b2aedd2a589",
+      "appKey": "00000000000000000000000000000000",
+      "name": "002_Simulacion_sensor_apertura",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 4,
+          "fcnt": 17
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 2,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 924500000,
+            "freqDownlink": 924500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "50": {
+    "id": 50,
+    "info": {
+      "devEUI": "8e7e2d701d11d704",
+      "devAddr": "211a60f2",
+      "nwkSKey": "a9cc1e8c4f46b9449be738873274249e",
+      "appSKey": "fa54a78c55f52c458dd532aa0fdfee19",
+      "appKey": "00000000000000000000000000000000",
+      "name": "026_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "51": {
+    "id": 51,
+    "info": {
+      "devEUI": "0359a2a9c43298dd",
+      "devAddr": "3c610fdb",
+      "nwkSKey": "47743ae0d81c46e0119dbd867091820f",
+      "appSKey": "ee6aba54d4ab1e94cb09c3961682050a",
+      "appKey": "00000000000000000000000000000000",
+      "name": "027_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "52": {
+    "id": 52,
+    "info": {
+      "devEUI": "605716f929b775f8",
+      "devAddr": "3ee48b2a",
+      "nwkSKey": "ad4ebc6e97a551e523cc1d79fa0d6e9a",
+      "appSKey": "f8069fa1d487f2646f2d073aa7049ffc",
+      "appKey": "00000000000000000000000000000000",
+      "name": "028_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "53": {
+    "id": 53,
+    "info": {
+      "devEUI": "1052099b498d6e07",
+      "devAddr": "facbbaec",
+      "nwkSKey": "936e5fe567ac27a6678a387f71c76560",
+      "appSKey": "095ceb47b9697c8bb7363b2d16c31c9c",
+      "appKey": "00000000000000000000000000000000",
+      "name": "029_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "54": {
+    "id": 54,
+    "info": {
+      "devEUI": "2efbf9fd7c251461",
+      "devAddr": "0f11f68d",
+      "nwkSKey": "7916542c215e579ce7ddcb0521aeaa1a",
+      "appSKey": "849ae568cac788cad50cae202ae0dc7c",
+      "appKey": "00000000000000000000000000000000",
+      "name": "030_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "55": {
+    "id": 55,
+    "info": {
+      "devEUI": "824c9885f021dcaa",
+      "devAddr": "dafa1560",
+      "nwkSKey": "8f4420a3051c523f228d06df0f06d656",
+      "appSKey": "80f1c39a28b1e20a4f2dcc47ee6fce21",
+      "appKey": "00000000000000000000000000000000",
+      "name": "031_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "56": {
+    "id": 56,
+    "info": {
+      "devEUI": "9373523a72f7e971",
+      "devAddr": "e623a67e",
+      "nwkSKey": "f8f3b6c8ca103c6cdae2b74c6e4bf4e9",
+      "appSKey": "bbb4bafe691a776ff26cb0e246a721e6",
+      "appKey": "00000000000000000000000000000000",
+      "name": "032_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "57": {
+    "id": 57,
+    "info": {
+      "devEUI": "17d33959c1c29aaa",
+      "devAddr": "e56a86d3",
+      "nwkSKey": "692710896d946cd05e10bf310935adc5",
+      "appSKey": "744a1b6e04f103b1b6f001d6d2b6dd56",
+      "appKey": "00000000000000000000000000000000",
+      "name": "033_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "58": {
+    "id": 58,
+    "info": {
+      "devEUI": "bcec7b4dee1e3edc",
+      "devAddr": "a4ad2d55",
+      "nwkSKey": "fab97fb04984da1900600c84cff68c18",
+      "appSKey": "86c1065fb35229ed61f9ec5cf62b11c0",
+      "appKey": "00000000000000000000000000000000",
+      "name": "034_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "59": {
+    "id": 59,
+    "info": {
+      "devEUI": "43e928db02b4b72a",
+      "devAddr": "051a2c8d",
+      "nwkSKey": "a3f5206050e6f7b8d4a6b160e63de49d",
+      "appSKey": "fafc545036a56f028f7eee796605fefe",
+      "appKey": "00000000000000000000000000000000",
+      "name": "035_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "6": {
+    "id": 6,
+    "info": {
+      "devEUI": "3a611a1546007ea6",
+      "devAddr": "1e3cd012",
+      "nwkSKey": "1b23f2de362bb6c22877c2f8c3b81688",
+      "appSKey": "f091d7ef58aea103d2a95a4389cb2b62",
+      "appKey": "00000000000000000000000000000000",
+      "name": "003_simulacion_sensor_apertura",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 3,
+          "fcnt": 12
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "60": {
+    "id": 60,
+    "info": {
+      "devEUI": "89f095e12a1a2a74",
+      "devAddr": "1da7ecf2",
+      "nwkSKey": "51dd2f42aa8b7b7c812ab326483b4969",
+      "appSKey": "1142b6db9babc268d35b1e585b81bdfc",
+      "appKey": "00000000000000000000000000000000",
+      "name": "036_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "61": {
+    "id": 61,
+    "info": {
+      "devEUI": "0bcfee32372b385a",
+      "devAddr": "e2b15954",
+      "nwkSKey": "7976b38faa461f52c18fb479eb2ab604",
+      "appSKey": "b326ddd57e71b08ebf400994afac8d41",
+      "appKey": "00000000000000000000000000000000",
+      "name": "037_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "62": {
+    "id": 62,
+    "info": {
+      "devEUI": "54a32679a312b36d",
+      "devAddr": "ad79c2e7",
+      "nwkSKey": "50a3ef89b5c2dc2942e7ed246dc3b4e8",
+      "appSKey": "d9eab2c5717725d691fed7f192571e6f",
+      "appKey": "00000000000000000000000000000000",
+      "name": "038_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 924500000,
+            "freqDownlink": 924500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "63": {
+    "id": 63,
+    "info": {
+      "devEUI": "512b1ce4149338da",
+      "devAddr": "a5369130",
+      "nwkSKey": "435a04c0c59e07609354274d1e977f9a",
+      "appSKey": "0ff2ebbb541a5811869ceddcbb85738f",
+      "appKey": "00000000000000000000000000000000",
+      "name": "039_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "64": {
+    "id": 64,
+    "info": {
+      "devEUI": "e15392c602def648",
+      "devAddr": "394c485d",
+      "nwkSKey": "cc4099ef76985a0af6ea81c4cc206a7a",
+      "appSKey": "9ca7f471efe77a5f555a266d6784ba99",
+      "appKey": "00000000000000000000000000000000",
+      "name": "040_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "65": {
+    "id": 65,
+    "info": {
+      "devEUI": "6fb3bac34b55dd88",
+      "devAddr": "3545671f",
+      "nwkSKey": "a1bab441141f3a548e45a6bf11bc206a",
+      "appSKey": "81f29149080c1d2610a38470cef0e9da",
+      "appKey": "00000000000000000000000000000000",
+      "name": "041_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923300000,
+            "freqDownlink": 923300000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "66": {
+    "id": 66,
+    "info": {
+      "devEUI": "9e433ba8ccfcd8c5",
+      "devAddr": "7c751c41",
+      "nwkSKey": "85c981a9ffe7f7032d917a624e45a5af",
+      "appSKey": "b2880501d72acb32be902d43bfe6d4e2",
+      "appKey": "00000000000000000000000000000000",
+      "name": "042_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "67": {
+    "id": 67,
+    "info": {
+      "devEUI": "a2371d3fa358ccf1",
+      "devAddr": "94cba423",
+      "nwkSKey": "c7273c54964748bf68ed5e889f83466f",
+      "appSKey": "5faa318398cbb40efb7bfb088126d8d3",
+      "appKey": "00000000000000000000000000000000",
+      "name": "043_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "68": {
+    "id": 68,
+    "info": {
+      "devEUI": "0e236cd5f037cedd",
+      "devAddr": "c1af7cf7",
+      "nwkSKey": "0320b8575e4cdb9e4e9bd4712ec4ea78",
+      "appSKey": "ee2e12aa7842c3c043905de96043ecfb",
+      "appKey": "00000000000000000000000000000000",
+      "name": "044_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926900000,
+            "freqDownlink": 926900000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "69": {
+    "id": 69,
+    "info": {
+      "devEUI": "c751bfecae0bfa00",
+      "devAddr": "ff4b201b",
+      "nwkSKey": "828e37b9695fdbf73330e3b6603cb982",
+      "appSKey": "aa1be5b03b66966fdc01eb6d54ac5330",
+      "appKey": "00000000000000000000000000000000",
+      "name": "045_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925100000,
+            "freqDownlink": 925100000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "7": {
+    "id": 7,
+    "info": {
+      "devEUI": "eb6b49ea494cba92",
+      "devAddr": "b435e03a",
+      "nwkSKey": "b3221ae61e9e4c1d45b11ad45e343c67",
+      "appSKey": "6822d7451745a5292d123de9b8a58f81",
+      "appKey": "00000000000000000000000000000000",
+      "name": "004_Simulacion_sensor_apertura",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 3,
+          "fcnt": 12
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 923300000,
+            "freqDownlink": 923300000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "70": {
+    "id": 70,
+    "info": {
+      "devEUI": "6f1887ecd9124ffa",
+      "devAddr": "c6fbb829",
+      "nwkSKey": "34b31ccd2fd332dc979c10b40b0b0ba5",
+      "appSKey": "ec72761b42c855cf42f946a756d0c125",
+      "appKey": "00000000000000000000000000000000",
+      "name": "046_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "71": {
+    "id": 71,
+    "info": {
+      "devEUI": "145f71f35a702ac3",
+      "devAddr": "cfd4e2ec",
+      "nwkSKey": "af6ae4aa9f115767920a566df9cc2689",
+      "appSKey": "9a9e482131c457a9fac14b04681e7122",
+      "appKey": "00000000000000000000000000000000",
+      "name": "047_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "72": {
+    "id": 72,
+    "info": {
+      "devEUI": "70dde8be250233bd",
+      "devAddr": "f1fd4e75",
+      "nwkSKey": "516f3f6148823bdcf78c6b0676920ea7",
+      "appSKey": "8057e4c88c6bdc00d97577941501e2d5",
+      "appKey": "00000000000000000000000000000000",
+      "name": "048_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "73": {
+    "id": 73,
+    "info": {
+      "devEUI": "69cd3752697ed38a",
+      "devAddr": "6420f45f",
+      "nwkSKey": "7b0700a265e5fbcd859c81186e17f0bb",
+      "appSKey": "c09c66ed50e6791beace30b2f3c9b758",
+      "appKey": "00000000000000000000000000000000",
+      "name": "049_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 11
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 926300000,
+            "freqDownlink": 926300000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "74": {
+    "id": 74,
+    "info": {
+      "devEUI": "ac8e9f26c7ba9166",
+      "devAddr": "6524f9d8",
+      "nwkSKey": "3f576498adab98a25b9cd3a6a1746603",
+      "appSKey": "8cb800ade2fc6364c1e456791980ab87",
+      "appKey": "00000000000000000000000000000000",
+      "name": "050_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "AQ==",
+        "active": true,
+        "infoUplink": {
+          "fport": 2,
+          "fcnt": 10
+        },
+        "fcntDown": 2,
+        "base64": true
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 927500000,
+            "freqDownlink": 927500000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "8": {
+    "id": 8,
+    "info": {
+      "devEUI": "6644b52c9cc294eb",
+      "devAddr": "eb67ed71",
+      "nwkSKey": "b25c287939a9bc94053ee11600dd238d",
+      "appSKey": "a5167ea61a6ff2c2e73e2d7195b10431",
+      "appKey": "00000000000000000000000000000000",
+      "name": "005_Simulacion_sensor_apertura",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 3,
+          "fcnt": 7
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 3600,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  },
+  "75": {
+    "id": 75,
+    "info": {
+      "devEUI": "262e89356d320035",
+      "devAddr": "cdac597b",
+      "nwkSKey": "47e2b27c6a9f224f0096ab27e24f1903",
+      "appSKey": "88401a378ed0d8dbd719de14da0a3961",
+      "appKey": "00000000000000000000000000000000",
+      "name": "003_id_huella",
+      "status": {
+        "mtype": "UnConfirmedDataUp",
+        "payload": "ff",
+        "active": true,
+        "infoUplink": {
+          "fport": 3,
+          "fcnt": 1
+        },
+        "fcntDown": 0,
+        "base64": false
+      },
+      "configuration": {
+        "region": 2,
+        "sendInterval": 20,
+        "ackTimeout": 2,
+        "range": 10000,
+        "disableFCntDown": true,
+        "supportedOtaa": false,
+        "supportedADR": false,
+        "supportedFragment": false,
+        "supportedClassB": false,
+        "supportedClassC": false,
+        "dataRate": 3,
+        "rx1DROffset": 0,
+        "nbRetransmission": 0
+      },
+      "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "altitude": 0
+      },
+      "rxs": [
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 925700000,
+            "freqDownlink": 925700000,
+            "minDR": 8,
+            "maxDR": 13
+          },
+          "dataRate": 13
+        },
+        {
+          "delay": 1000,
+          "durationOpen": 3000,
+          "channel": {
+            "active": true,
+            "enableUplink": false,
+            "freqUplink": 0,
+            "freqDownlink": 923300000,
+            "minDR": 0,
+            "maxDR": 0
+          },
+          "dataRate": 8
+        }
+      ]
+    }
+  }
+}
